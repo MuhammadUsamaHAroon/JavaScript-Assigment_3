@@ -2,7 +2,20 @@
 // Question no.1
 
 var array=[]
-array.push("Bilal", "Izhan", "Shakeel", "Safdar", "Ahmed")
+
+array.push("Bilal")
+console.log(array)
+
+array.push("Izhan")
+console.log(array)
+
+array.push("Shakeel")
+console.log(array)
+
+array.push("Safdar")
+console.log(array)
+
+array.push("Ahmed")
 console.log(array)
 
 // Question no.3
@@ -14,13 +27,45 @@ console.log(array)
 // Question no.4
 
 var array=[]
-array.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+
+array.push(1)
+console.log(array)
+
+array.push(2)
+console.log(array)
+
+array.push(3)
+console.log(array)
+
+array.push(4)
+console.log(array)
+
+array.push(5)
+console.log(array)
+
+array.push(6)
+console.log(array)
+
+array.push(7)
+console.log(array)
+
+array.push(8)
+console.log(array)
+
+array.push(9)
+console.log(array)
+
+array.push(10)
 console.log(array)
 
 // Question no.5
 
 var array=[]
-array.push(true, false)
+
+array.push(true)
+console.log(array)
+
+array.push(false)
 console.log(array)
 
 // Question no.6
@@ -32,10 +77,19 @@ console.log(array)
 // Question no.7
 
 var array=[]
+
 array.push("Ufone")
+console.log(array)
+
 array.push("Telenor")
+console.log(array)
+
 array.push("Zong")
+console.log(array)
+
 array.push("Warid")
+console.log(array)
+
 array.push("Jazz")
 console.log(array)
 
@@ -55,9 +109,16 @@ console.log(array)
 // Question no.9
 
 var array=[]
+
 array.push("Avengers : Age of Ultron")
+console.log(array)
+
 array.push("Spectre")
+console.log(array)
+
 array.push("Jurassic World")
+console.log(array)
+
 array.push("Inside Out")
 console.log(array)
 
@@ -94,24 +155,10 @@ console.log(aftab_score_and_percentage)
 var bilal_score_and_percentage=["Score of Bilal is ",450,"."+"Percentage :",percentage_of_bilal,"%"]
 console.log(bilal_score_and_percentage)
 
-// Question no.15
-var cities=["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"]
-console.log(cities)
-
-cities_copy=cities.slice(2,4)
-console.log(cities_copy)
-
-// Question no.16
-
-var arr=["This","is","my","cat"]
-console.log(arr)
-
-var string=arr.toString()
-console.log(string)
-
 // Question no.12
 
 var color=[]
+console.log(color)
 
 // part(a)
 var user=prompt("add to the beginning & add that color to the beginning")
@@ -133,6 +180,38 @@ console.log(color)
 // part(e)
 color.pop(user1)
 console.log(color)
+
+// Question no.13
+
+let score_of_students=[320, 230, 480, 120]
+console.log(score_of_students)
+
+score_of_students.sort()
+console.log(score_of_students)
+
+// Question no.14
+
+let fruits=["Strawberry", "Apple", "Orange", "Banana"]
+console.log(fruits)
+
+fruits.sort()
+console.log(fruits)
+
+// Question no.15
+var cities=["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"]
+console.log(cities)
+
+cities_copy=cities.slice(2,4)
+console.log(cities_copy)
+
+// Question no.16
+
+var arr=["This","is","my","cat"]
+console.log(arr)
+
+var string=arr.toString()
+console.log(string)
+
 
 // Question no.17
 
@@ -157,5 +236,21 @@ objects.pop()
 console.log(objects)
 objects.pop()
 console.log(objects)
+
+// Question no.20
+
+var arrays=[
+    ["Hello World"], [1, 2, 3, 4, 5], [true, false]
+]
+console.log(arrays)
+
+// Question  no.21
+
+var matrix=[
+    [0, 1, 2, 3],
+    [1, 0, 1, 2],
+    [2, 1, 0, 1]
+]
+console.log(matrix)
 
 
