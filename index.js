@@ -158,6 +158,7 @@ console.log(bilal_score_and_percentage)
 // Question no.12
 
 var color=[]
+
 console.log(color)
 
 // part(a)
@@ -175,11 +176,18 @@ var user2=prompt("Add two more color to the beginning")
 color.unshift(user2)
 console.log(color)
 // part(d)
-color.shift(user)
+color.shift()
 console.log(color)
 // part(e)
-color.pop(user1)
+color.pop()
 console.log(color)
+
+// part(f)
+var user3=prompt("Add a color & color name. Then add the color to desired position/index.")
+color.splice(0,0,user3)
+
+console.log(color.indexOf(user3))
+
 
 // Question no.13
 
